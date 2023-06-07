@@ -14,4 +14,4 @@ Description:
 > peer project graded 
 > Using web tools to monitor and validate responsiveness
 
-**Live preview** of my project [here]()
+**Live preview** of my project [here](https://nathimamba.github.io/Lucky-Shrub-Project/)
