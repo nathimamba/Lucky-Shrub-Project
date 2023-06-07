@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.links {
+    color: white !important;
+    text-transform: uppercase;
+}
+
+.links:hover{
+    background: crimson;
+}
+
+.lists-style{
+    background: #26877f;
+}
+
+.promo {
+    width: 100%;
+    height: 500px;
+    background-image: url('/chair-garden.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    margin-top: -8px;
+}
+
+
+
+
+.promo-text {
+    color: white !important;
+    font-weight: bold;
+}
+
+.message{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-left: #26877f solid 3px;
+    display: inline-block;
+    padding: 10px;
+    margin-left: 10px;
+    vertical-align: middle;
+    text-align: justify;
+}
+
+.project{
+    color: #26877f;
+}
+
+.bounce {
+    display: block;
+    border: none;
+    background: #26877f;
+    color: white;
+    border: none;
+    font-size: 20px;
+    border-radius: 12px;
+    margin: 4px 2px;
+    text-decoration: none;
+    padding: 20px;
+
+}
+
+#garden {
+    background: #2596be;
+    color: #c1cfcf;
+    font-weight: bolder;
+}
+
+#garden:hover{
+    background: crimson;
+}
+
+.bounce:hover{
+    background: crimson;
+}
+
+.carded{
+    width: 15rem;
+}
+
+.footer > div >img{
+    font-weight: bolder;
+}
+
+.footer {
+    background: black;
+    color: white !important;
+    font-weight: bold;
+}
+
+
+
+@media only screen and (max-width: 576px){
+    .promo {
+        height: 550px;
+    }
+}
+
+@media only screen and (max-width: 390px){
+    .promo {
+        height: 680px;
+    }
+}
+
+@media only screen and (max-width: 393px){
+    .promo {
+        height: 680px;
+    }
+}
+
+@media only screen and (max-width: 280px){
+    .promo {
+        height: 820px;
+    }
+}
